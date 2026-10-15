@@ -1,0 +1,20 @@
+# Сборка
+build/
+*.o
+*.so
+
+# Исполняемые файлы module7
+module7/bench_o0
+module7/bench_o2
+module7/asan_bug
+module7/leak_bug
+module7/leak_bug_valgrind
+module7/ubsan_bug
+module7/tsan_bug
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
